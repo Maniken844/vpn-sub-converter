@@ -938,20 +938,6 @@ proxies:
   network: xhttp
 - name: 🇳🇱 Нидерланды 2
   type: vless
-  server: 201.51.11.65
-  port: 443
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: GiDgVRVYrTkv1mZJeFVWkr736Iey2kqLM6L0eUbffV8
-    short-id: ''
-  servername: absolute-disaster.org
-  client-fingerprint: chrome
-- name: 🇳🇱 Нидерланды 3
-  type: vless
   server: 51.158.206.97
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
@@ -1195,14 +1181,6 @@ proxies:
     short-id: 835bff7d47836e88
   servername: music.yandex.ru
   client-fingerprint: chrome
-- name: 🇳🇱 Нидерланды 4
-  type: vless
-  server: 177.177.215.45
-  port: 444
-  uuid: 254f28cb-d0c1-41e9-a06b-f2155213ff04
-  udp: true
-  network: tcp
-  flow: xtls-rprx-vision
 - name: 🇬🇧 Великобритания 1
   type: vless
   server: 144.48.11.146
@@ -1258,7 +1236,7 @@ proxies:
     short-id: 8f5d073231be5216
   servername: api-maps.yandex.ru
   client-fingerprint: firefox
-- name: 🇳🇱 Нидерланды 5
+- name: 🇳🇱 Нидерланды 3
   type: vless
   server: 171.22.133.5
   port: 6443
@@ -1271,7 +1249,7 @@ proxies:
     short-id: 3bcbfe3856680516
   servername: nl.krabvpn.pro
   client-fingerprint: firefox
-- name: 🇸🇪 Швеция 5
+- name: 🇸🇪 Швеция 4
   type: vless
   server: 193.163.203.170
   port: 443
@@ -1285,7 +1263,7 @@ proxies:
     short-id: b28db60d77c50b4f
   servername: yandex.ru
   client-fingerprint: chrome
-- name: 🇸🇪 Швеция 6
+- name: 🇸🇪 Швеция 5
   type: vless
   server: 193.163.203.170
   port: 443
@@ -1299,7 +1277,7 @@ proxies:
     short-id: b28db60d77c50b4f
   servername: yandex.ru
   client-fingerprint: edge
-- name: 🇸🇪 Швеция 7
+- name: 🇸🇪 Швеция 6
   type: vless
   server: 193.163.203.170
   port: 443
@@ -1334,7 +1312,7 @@ proxies:
     short-id: 8f5d073231be5216
   servername: api-maps.yandex.ru
   client-fingerprint: safari
-- name: 🇸🇪 Швеция 8
+- name: 🇸🇪 Швеция 7
   type: vless
   server: 193.163.203.170
   port: 443
@@ -1376,13 +1354,6 @@ proxies:
   uuid: 8cef7621-c6f0-486e-b51d-59c30c5b0b25
   udp: true
   network: ws
-- name: 🇳🇱 Нидерланды 6
-  type: ss
-  server: 82.38.31.49
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
 - name: 🇧🇾 Беларусь 10
   type: vless
   server: 185.66.68.201
@@ -1410,7 +1381,7 @@ proxies:
   uuid: f028d829-249a-4692-b45f-1b4cde8ef0c7
   udp: true
   network: ws
-- name: 🇳🇱 Нидерланды 7
+- name: 🇳🇱 Нидерланды 4
   type: vless
   server: SC-TheNetherlands2.09vpn.com
   port: 80
@@ -1513,15 +1484,6 @@ proxies:
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: 18.194.242.173
-  skip-cert-verify: true
-  alpn:
-  - h3
-- name: 🇯🇵 Япония 1
-  type: hysteria2
-  server: 8.211.175.236
-  port: 8443
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  sni: 8.211.175.236
   skip-cert-verify: true
   alpn:
   - h3
@@ -1632,7 +1594,6 @@ proxy-groups:
   - 🇺🇸 США 3
   - 🇩🇪 ФРГ 6
   - 🇳🇱 Нидерланды 2
-  - 🇳🇱 Нидерланды 3
   - 🇨🇾 Кипр 1
   - 🇺🇸 США 4
   - 🇩🇪 ФРГ 7
@@ -1653,26 +1614,24 @@ proxy-groups:
   - 🇩🇪 Германия 1
   - 🇧🇾 Беларусь 6
   - 🇫🇮 Финляндия 14
-  - 🇳🇱 Нидерланды 4
   - 🇬🇧 Великобритания 1
   - 🇩🇪 Германия 2
   - 🇩🇪 Германия 3
   - 🇩🇪 Германия 4
-  - 🇳🇱 Нидерланды 5
+  - 🇳🇱 Нидерланды 3
+  - 🇸🇪 Швеция 4
   - 🇸🇪 Швеция 5
   - 🇸🇪 Швеция 6
-  - 🇸🇪 Швеция 7
   - 🇫🇮 Финляндия 15
   - 🇩🇪 Германия 5
-  - 🇸🇪 Швеция 8
+  - 🇸🇪 Швеция 7
   - 🇧🇾 Беларусь 7
   - 🇧🇾 Беларусь 8
   - 🇧🇾 Беларусь 9
-  - 🇳🇱 Нидерланды 6
   - 🇧🇾 Беларусь 10
   - 🇩🇪 Германия 8
   - 🇩🇪 Германия 9
-  - 🇳🇱 Нидерланды 7
+  - 🇳🇱 Нидерланды 4
   - 🇺🇸 США 2
   - 🇹🇷 Турция 1
   - 🇹🇷 Турция 2
@@ -1684,7 +1643,6 @@ proxy-groups:
   - 🇭🇰 Гонконг, Особый Административный Район Китая 1
   - 🇩🇪 Германия 6
   - 🇩🇪 Германия 7
-  - 🇯🇵 Япония 1
   - 🇰🇷 Южная Корея 2
 - name: SELECT
   type: select
@@ -1782,7 +1740,6 @@ proxy-groups:
   - 🇺🇸 США 3
   - 🇩🇪 ФРГ 6
   - 🇳🇱 Нидерланды 2
-  - 🇳🇱 Нидерланды 3
   - 🇨🇾 Кипр 1
   - 🇺🇸 США 4
   - 🇩🇪 ФРГ 7
@@ -1803,26 +1760,24 @@ proxy-groups:
   - 🇩🇪 Германия 1
   - 🇧🇾 Беларусь 6
   - 🇫🇮 Финляндия 14
-  - 🇳🇱 Нидерланды 4
   - 🇬🇧 Великобритания 1
   - 🇩🇪 Германия 2
   - 🇩🇪 Германия 3
   - 🇩🇪 Германия 4
-  - 🇳🇱 Нидерланды 5
+  - 🇳🇱 Нидерланды 3
+  - 🇸🇪 Швеция 4
   - 🇸🇪 Швеция 5
   - 🇸🇪 Швеция 6
-  - 🇸🇪 Швеция 7
   - 🇫🇮 Финляндия 15
   - 🇩🇪 Германия 5
-  - 🇸🇪 Швеция 8
+  - 🇸🇪 Швеция 7
   - 🇧🇾 Беларусь 7
   - 🇧🇾 Беларусь 8
   - 🇧🇾 Беларусь 9
-  - 🇳🇱 Нидерланды 6
   - 🇧🇾 Беларусь 10
   - 🇩🇪 Германия 8
   - 🇩🇪 Германия 9
-  - 🇳🇱 Нидерланды 7
+  - 🇳🇱 Нидерланды 4
   - 🇺🇸 США 2
   - 🇹🇷 Турция 1
   - 🇹🇷 Турция 2
@@ -1834,7 +1789,6 @@ proxy-groups:
   - 🇭🇰 Гонконг, Особый Административный Район Китая 1
   - 🇩🇪 Германия 6
   - 🇩🇪 Германия 7
-  - 🇯🇵 Япония 1
   - 🇰🇷 Южная Корея 2
 rules:
 - MATCH,SELECT
