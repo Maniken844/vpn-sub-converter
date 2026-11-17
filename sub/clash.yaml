@@ -1,0 +1,2424 @@
+port: 7890
+mode: rule
+proxies:
+- name: 🇩🇪 LTE - Обход глушилок №14 №1 | @vpnruss1
+  type: vless
+  server: 167.17.69.171
+  port: 443
+  uuid: 00144519-7e0d-476b-8d28-435576af9262
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
+    short-id: 0990d22f
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №12 №1 | @vpnruss1
+  type: vless
+  server: 195.123.213.28
+  port: 443
+  uuid: 02fcc1a4-ee90-4970-8bbb-4ffaa8109d24
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo
+    short-id: 5c256336e3b673fa
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №13 №1 | @vpnruss1
+  type: vless
+  server: 82.118.22.161
+  port: 443
+  uuid: 05488656-d4bf-4634-8b2e-e4ff5a56c7e2
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E
+    short-id: fa3ea655619a3e78
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №18 №1 | @vpnruss1
+  type: vless
+  server: 47.253.226.114
+  port: 443
+  uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
+    short-id: ''
+  servername: www.cloudflare.com
+  client-fingerprint: ios
+- name: 🇩🇪 LTE - Обход глушилок №28 №1 | @vpnruss1
+  type: vless
+  server: 193.163.203.170
+  port: 443
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  servername: yandex.ru
+  client-fingerprint: edge
+- name: 🇩🇪 LTE - Обход глушилок №17 №1 | @vpnruss1
+  type: vless
+  server: 195.211.98.43
+  port: 443
+  uuid: 1b4b11d5-4c2d-4533-9a55-636757cdee94
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA
+    short-id: 9c56fddf237e8eaf
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇮🇩 Польша №ws №1 | @vpnruss1
+  type: vless
+  server: 135.84.79.66
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇸🇮 Словения №1 | @vpnruss1
+  type: vless
+  server: 151.101.36.111
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: xhttp
+- name: 🇮🇪 Ирландия №1 | @vpnruss1
+  type: vless
+  server: 151.101.36.128
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: xhttp
+- name: 🇰🇿 Казахстан №1 | @vpnruss1
+  type: vless
+  server: 151.101.36.201
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: xhttp
+- name: 🇩🇪 Германия №1 | @vpnruss1
+  type: vless
+  server: 151.101.36.227
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: xhttp
+- name: 🇨🇦 Канада №1 | @vpnruss1
+  type: vless
+  server: 151.101.36.235
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: xhttp
+- name: 🇧🇷 Бразилия №1 | @vpnruss1
+  type: vless
+  server: 151.101.36.246
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: xhttp
+- name: 🇬🇧 Лондон №1 | @vpnruss1
+  type: vless
+  server: 151.101.36.253
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: xhttp
+- name: 🇳🇱 Голландия №1 | @vpnruss1
+  type: vless
+  server: 151.101.36.2
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: xhttp
+- name: 🇫🇮 Финляндия №1 | @vpnruss1
+  type: vless
+  server: 151.101.36.61
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: xhttp
+- name: 🇦🇹 Австрия №1 | @vpnruss1
+  type: vless
+  server: 151.101.36.88
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: xhttp
+- name: 🇪🇪 Эстония №1 | @vpnruss1
+  type: vless
+  server: 151.101.36.89
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: xhttp
+- name: 🇨🇿 Чехия №ws №1 | @vpnruss1
+  type: vless
+  server: 185.133.35.86
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇹🇷 For TM №2 №1 | @vpnruss1
+  type: vless
+  server: 3.169.218.1
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇫🇮 For TM №1 №1 | @vpnruss1
+  type: vless
+  server: 3.169.218.1
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇱🇺 For TM №10 №1 | @vpnruss1
+  type: vless
+  server: 3.169.218.1
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇧🇬 For TM №12 №1 | @vpnruss1
+  type: vless
+  server: 3.169.218.1
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇮🇩 For TM №7 №1 | @vpnruss1
+  type: vless
+  server: 3.169.218.1
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇱🇺 For TM №8 №1 | @vpnruss1
+  type: vless
+  server: 3.169.218.1
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇱🇺 For TM №11 №1 | @vpnruss1
+  type: vless
+  server: 3.169.218.1
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇦🇿 For TM №3 №1 | @vpnruss1
+  type: vless
+  server: 3.169.218.1
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇧🇻 For TM №5 №1 | @vpnruss1
+  type: vless
+  server: 3.169.218.1
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇧🇾 For TM №6 №1 | @vpnruss1
+  type: vless
+  server: 3.169.218.1
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇩🇪 For TM №9 №1 | @vpnruss1
+  type: vless
+  server: 3.169.218.1
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇩🇪 For TM №4 №1 | @vpnruss1
+  type: vless
+  server: 3.169.218.1
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇵🇹 Португалия №ws №1 | @vpnruss1
+  type: vless
+  server: 89.116.46.150
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇬🇧 Британия №ws №1 | @vpnruss1
+  type: vless
+  server: 89.116.46.182
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇧🇾 Беларусь №ws №1 | @vpnruss1
+  type: vless
+  server: 94.140.0.173
+  port: 443
+  uuid: 320ee620-e2c9-463e-a34f-1338d2473eb9
+  udp: true
+  network: ws
+- name: 🇩🇪 LTE - Обход глушилок №7 №1 | @vpnruss1
+  type: vless
+  server: 45.90.59.15
+  port: 443
+  uuid: 3950b45e-740d-4dca-ac95-505ec8534592
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY
+    short-id: 19253fae84102271
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇩🇪 LTE - Обход глушилок №24 №1 | @vpnruss1
+  type: vless
+  server: 15.204.97.195
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №26 №1 | @vpnruss1
+  type: vless
+  server: 15.204.97.197
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №20 №1 | @vpnruss1
+  type: vless
+  server: 15.204.97.198
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №22 №1 | @vpnruss1
+  type: vless
+  server: 15.204.97.206
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №23 №1 | @vpnruss1
+  type: vless
+  server: 15.204.97.214
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: firefox
+- name: 🇩🇪 LTE - Обход глушилок №19 №1 | @vpnruss1
+  type: vless
+  server: 15.204.97.216
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №21 №1 | @vpnruss1
+  type: vless
+  server: 15.204.97.219
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: firefox
+- name: 🇩🇪 LTE - Обход глушилок №4 №1 | @vpnruss1
+  type: vless
+  server: 51.158.206.103
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №2 №1 | @vpnruss1
+  type: vless
+  server: 51.158.206.19
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №3 №1 | @vpnruss1
+  type: vless
+  server: 51.158.206.25
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: firefox
+- name: 🇩🇪 LTE - Обход глушилок №6 №1 | @vpnruss1
+  type: vless
+  server: 51.158.206.26
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №5 №1 | @vpnruss1
+  type: vless
+  server: 51.158.206.34
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №8 №1 | @vpnruss1
+  type: vless
+  server: 51.158.206.80
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №9 №1 | @vpnruss1
+  type: vless
+  server: 51.158.206.8
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №1 №1 | @vpnruss1
+  type: vless
+  server: 51.158.206.96
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №39 №1 | @vpnruss1
+  type: vless
+  server: luminexorizon.ink
+  port: 443
+  uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
+  udp: true
+  network: grpc
+- name: 🇩🇪 LTE - Обход глушилок №11 №1 | @vpnruss1
+  type: vless
+  server: 87.199.205.28
+  port: 443
+  uuid: 501a2da5-cb22-4a3f-915e-e3b821d1d62d
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: W-9zyiOq287RtXVTZlTFbSDJ0Mx8joyBLJoA7ZE7eBw
+    short-id: ef1d3554c652a436
+  servername: vkvd754.okcdn.ru
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №33 №1 | @vpnruss1
+  type: vless
+  server: 84.23.52.104
+  port: 9009
+  uuid: 6a5b48fe-9a99-4509-9bad-8ad9b44bd56e
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: JASBooze12B0nAaLU2QMWkeAqXwh4GmhfPD_O9YteT0
+    short-id: 6ba85179e30d4fc2
+  servername: n1.93-89-220-9.sslip.io
+  client-fingerprint: safari
+- name: 🇩🇪 LTE - Обход глушилок №32 №1 | @vpnruss1
+  type: vless
+  server: 84.23.52.104
+  port: 9071
+  uuid: 6a5b48fe-9a99-4509-9bad-8ad9b44bd56e
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: XKFUTW9ZAlaaeuUGiKKx9FgLjdQch7pCiR1GC1xMcjk
+    short-id: aab4c8abf7a4c4e4
+  servername: www.cloudflare.com
+  client-fingerprint: safari
+- name: 🇩🇪 LTE - Обход глушилок №31 №1 | @vpnruss1
+  type: vless
+  server: 84.23.52.104
+  port: 9079
+  uuid: 6a5b48fe-9a99-4509-9bad-8ad9b44bd56e
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: V1ifE7iJ4ITZfA10PNaR7fF7Lz1E_9v7a9S4jPOY-A8
+    short-id: 069074d6fbb09e56
+  servername: by.84-23-52-104.sslip.io
+  client-fingerprint: edge
+- name: 🇩🇪 LTE - Обход глушилок №35 №1 | @vpnruss1
+  type: vless
+  server: 84.23.52.104
+  port: 9118
+  uuid: 6a5b48fe-9a99-4509-9bad-8ad9b44bd56e
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: 4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs
+    short-id: 6ba85179e30d4fc2
+  servername: www.cloudflare.com
+  client-fingerprint: safari
+- name: 🇩🇪 LTE - Обход глушилок №36 №1 | @vpnruss1
+  type: vless
+  server: 147.93.173.45
+  port: 10444
+  uuid: 75c5f51b-d548-4eab-a26e-aa10fc3dbc7b
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  servername: video.yandex.ru
+  client-fingerprint: safari
+- name: 🇩🇪 LTE - Обход глушилок №30 №1 | @vpnruss1
+  type: vless
+  server: 95.129.236.216
+  port: 443
+  uuid: 77998cc6-8a4d-4251-b974-ebff48a84c4d
+  udp: true
+  network: ws
+- name: 🇩🇪 LTE - Обход глушилок №34 №1 | @vpnruss1
+  type: vless
+  server: 95.128.71.79
+  port: 10444
+  uuid: 8cef7621-c6f0-486e-b51d-59c30c5b0b25
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  servername: ads.x5.ru
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №27 №1 | @vpnruss1
+  type: vless
+  server: 47.251.108.158
+  port: 443
+  uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs
+    short-id: 896f52ba2cfca903
+  servername: www.cloudflare.com
+  client-fingerprint: ios
+- name: 🇩🇪 LTE - Обход глушилок №41 №1 | @vpnruss1
+  type: vless
+  server: 82.118.19.153
+  port: 443
+  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
+    short-id: 670ed9f350bd8ee0
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №29 №1 | @vpnruss1
+  type: vless
+  server: 178.172.227.228
+  port: 10444
+  uuid: b6e5dc56-836f-48c1-9163-b0b0b43b647d
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  servername: ads.x5.ru
+  client-fingerprint: ios
+- name: 🇩🇪 LTE - Обход глушилок №40 №1 | @vpnruss1
+  type: vless
+  server: 161.97.160.224
+  port: 443
+  uuid: b81b4d1b-7f20-48f1-82dc-d24bef898cab
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0
+    short-id: e6
+  servername: passport.yandex.ru
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №16 №1 | @vpnruss1
+  type: vless
+  server: 213.176.92.168
+  port: 10444
+  uuid: ba52cc43-700d-4040-9444-29214c98e6e0
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  servername: video.yandex.ru
+  client-fingerprint: safari
+- name: 🇩🇪 LTE - Обход глушилок №10 №1 | @vpnruss1
+  type: vless
+  server: 85.208.69.43
+  port: 33055
+  uuid: ce8faf30-b1d6-4a53-95a0-8520dc609db3
+  udp: true
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: 1rvxGeCvBMccFM2LKGJ4SqezdkMxS4ZZagHR1MGdCgo
+    short-id: '77'
+  servername: yandex.ru
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №37 №1 | @vpnruss1
+  type: vless
+  server: 45.38.143.210
+  port: 30584
+  uuid: cebc5f19-18d9-48e6-9029-fb4b04caf393
+  udp: true
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: 2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y
+    short-id: 67ece882d65d0f1a
+  servername: m.vk.com
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №25 №1 | @vpnruss1
+  type: vless
+  server: 46.28.67.55
+  port: 443
+  uuid: d1a6a033-fdbd-46a6-a177-3370ba042b9f
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
+    short-id: d06d78e974491b6e
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇩🇪 LTE - Обход глушилок №38 №1 | @vpnruss1
+  type: vless
+  server: 82.118.16.187
+  port: 443
+  uuid: dc2259c4-388e-4285-ba18-df619b6672b6
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: R5ycsjJ-v024902dMSqTsSdqxUwCFEXMebdBEWFt9VU
+    short-id: cd6065902eea7a02
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇩🇪 LTE - Обход глушилок №15 №1 | @vpnruss1
+  type: vless
+  server: 138.124.125.193
+  port: 10444
+  uuid: e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+- name: 🇫🇮 Финляндия 1
+  type: vless
+  server: 109.71.245.99
+  port: 8443
+  uuid: f09ca6e3-c547-4f91-95f5-77f34c4282ac
+  udp: true
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: oeaOjlr45iDKroH7RIhUq-epbwnRAmG7jeXZHlbSzj4
+    short-id: 835bff7d47836e88
+  servername: music.yandex.ru
+  client-fingerprint: chrome
+- name: 🇨🇾 Кипр 1
+  type: vless
+  server: 45.88.176.223
+  port: 443
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+  udp: true
+  network: xhttp
+- name: 🇧🇾 Беларусь 1
+  type: vless
+  server: 178.172.227.124
+  port: 10443
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
+  udp: true
+  network: tcp
+- name: 🇺🇸 США 1
+  type: vless
+  server: 177.3.252.14
+  port: 443
+  uuid: 146d567c-6335-4e63-a8aa-7ec068642440
+  udp: true
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: fDrDDz_GCqhDgG8kMxWXk2vRuyfBHTTNwVa7k7nJHgw
+    short-id: 5c42ed8c
+  servername: pl1.obxodvpn.us
+  client-fingerprint: firefox
+- name: 🇭🇺 Венгрия 1
+  type: vless
+  server: 212.41.8.76
+  port: 11443
+  uuid: a628c583-24a8-4ce5-98ad-c6458abf1cc4
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: LR_FEXsJiKJUtXcmO1UR4Oi2IMmRcaS04D05oooqn28
+    short-id: 9edc24fc
+  servername: s3.storage.selcloud.ru
+  client-fingerprint: ios
+- name: 🇩🇪 Германия 1
+  type: vless
+  server: 171.22.133.5
+  port: 8443
+  uuid: 0b22812b-4a79-42b1-93ec-5b157b0f2f7f
+  udp: true
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: 1SldfhWqqF_Rg9QlPKQqufcHi5GhkxwcEV5HGyOy4Qg
+    short-id: 64ad711102f56ca2
+  servername: de.krabvpn.pro
+  client-fingerprint: firefox
+- name: 🇮🇹 Италия 1
+  type: vless
+  server: 48.103.120.21
+  port: 443
+  uuid: a30903dc-1bf0-0002-8b1b-603a3a56211c
+  udp: true
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 868419504747f6de
+  servername: net-svc-io.galioncc.com
+  client-fingerprint: firefox
+- name: 🇩🇪 ФРГ 1
+  type: ss
+  server: 47.245.167.223
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: 🇵🇱 Польша 1
+  type: vless
+  server: 195.3.223.125
+  port: 443
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  udp: true
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: a7c92e4b10d6f835
+  servername: api-net-ctl.galioncc.com
+  client-fingerprint: firefox
+- name: 🇸🇪 Швеция 1
+  type: vless
+  server: 191.217.205.175
+  port: 5443
+  uuid: 0b22812b-4a79-42b1-93ec-5b157b0f2f7f
+  udp: true
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: YWaSbf7NwwCZNuB3cQ_VCF20mUwWJBcfMysIZN4j6mI
+    short-id: 7a8c9b0e1d2f3456
+  servername: sw.krabvpn.pro
+  client-fingerprint: firefox
+- name: 🇳🇱 Нидерланды 1
+  type: vless
+  server: 50.7.169.244
+  port: 443
+  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+- name: 🇨🇿 Чешская республика 1
+  type: vless
+  server: 83.141.92.168
+  port: 443
+  uuid: a7595994-695d-484e-bfcb-e9fbb73cfa39
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: kpQWnVk3fEJXfPGFsMerUoPV_ZqUJUJFRnF1FvKyhRY
+    short-id: 7a7d19880a9ee786
+  servername: sladovna.russianpiwo.fun
+  client-fingerprint: firefox
+- name: 🇳🇴 Норвегия 1
+  type: vless
+  server: 193.243.189.64
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 631qtx5_iiR8HBYdp3duf2SMqdN0URE1AWVb85I_FFg
+    short-id: b12c3119d219dc
+  servername: no1.gofizz.in
+  client-fingerprint: ios
+- name: 🇮🇱 Израиль 1
+  type: vless
+  server: 45.150.108.180
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Jw--SSPecJpt9-lke7H9Bdr8F73xxtvC_5ZrxiWRog0
+    short-id: dc1bf50b0e0a
+  servername: il1.gofizzin.com
+  client-fingerprint: chrome
+- name: 🇨🇦 Канада 1
+  type: vless
+  server: aghil.gamse.ir
+  port: 8443
+  uuid: 50414e45-4c5f-5a45-5553-f277a169a331
+  udp: true
+  network: ws
+- name: 🇫🇮 Финляндия 2
+  type: vless
+  server: 109.71.245.99
+  port: 8443
+  uuid: f09ca6e3-c547-4f91-95f5-77f34c4282ac
+  udp: true
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: oeaOjlr45iDKroH7RIhUq-epbwnRAmG7jeXZHlbSzj4
+    short-id: 835bff7d47836e88
+  servername: music.yandex.ru
+  client-fingerprint: firefox
+- name: 🇧🇾 Беларусь 2
+  type: vless
+  server: 178.172.227.124
+  port: 10443
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
+  udp: true
+  network: tcp
+- name: 🇭🇺 Венгрия 2
+  type: vless
+  server: 212.41.8.76
+  port: 11443
+  uuid: a628c583-24a8-4ce5-98ad-c6458abf1cc4
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: LR_FEXsJiKJUtXcmO1UR4Oi2IMmRcaS04D05oooqn28
+    short-id: 9edc24fc
+  servername: s3.storage.selcloud.ru
+  client-fingerprint: random
+- name: 🇩🇪 Германия 2
+  type: vless
+  server: 104.17.70.206
+  port: 8443
+  uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
+  udp: true
+  network: ws
+- name: 🇮🇹 Италия 2
+  type: vless
+  server: 48.103.120.21
+  port: 443
+  uuid: a30903dc-1bf0-0001-8b1b-603a3a56211c
+  udp: true
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 868419504747f6de
+  servername: net-svc-io.galioncc.com
+  client-fingerprint: firefox
+- name: 🇩🇪 ФРГ 2
+  type: ss
+  server: 47.245.174.67
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: 🇵🇱 Польша 2
+  type: vless
+  server: 188.225.25.35
+  port: 8443
+  uuid: 591db2c1-12a7-4aa8-93af-106bd3e3ae3a
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: rJ-fFNYXh7WW9LuYe1N71fh7nAEe5i09Pi5ZDSDlH1s
+    short-id: 4951a2313524dd8f
+  servername: ru.starkclaude.top
+  client-fingerprint: firefox
+- name: 🇸🇪 Швеция 2
+  type: vless
+  server: 84.32.154.74
+  port: 443
+  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+- name: 🇨🇿 Чешская республика 2
+  type: vless
+  server: 83.141.92.168
+  port: 443
+  uuid: a7595994-695d-484e-bfcb-e9fbb73cfa39
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: kpQWnVk3fEJXfPGFsMerUoPV_ZqUJUJFRnF1FvKyhRY
+    short-id: 7a7d19880a9ee786
+  servername: sladovna.russianpiwo.fun
+  client-fingerprint: firefox
+- name: 🇫🇷 Франция 2
+  type: vless
+  server: 62.210.70.194
+  port: 37783
+  uuid: a289c660-1b12-432b-a06c-c2ae469272b0
+  udp: true
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: tQeEamJmYVUUfjRLX7ETvMnPj4DrHzRhR5TI684oYgg
+    short-id: 21569dd6
+  servername: www.yahoo.com
+  client-fingerprint: firefox
+- name: 🇳🇴 Норвегия 2
+  type: vless
+  server: 193.243.189.64
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 631qtx5_iiR8HBYdp3duf2SMqdN0URE1AWVb85I_FFg
+    short-id: b12c3119d219dc
+  servername: no1.gofizz.in
+  client-fingerprint: chrome
+- name: 🇮🇱 Израиль 2
+  type: vless
+  server: 45.150.108.180
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Jw--SSPecJpt9-lke7H9Bdr8F73xxtvC_5ZrxiWRog0
+    short-id: dc1bf50b0e0a
+  servername: il1.gofizzin.com
+  client-fingerprint: chrome
+- name: 🇫🇮 Финляндия 3
+  type: vless
+  server: 109.71.245.99
+  port: 8443
+  uuid: f09ca6e3-c547-4f91-95f5-77f34c4282ac
+  udp: true
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: oeaOjlr45iDKroH7RIhUq-epbwnRAmG7jeXZHlbSzj4
+    short-id: 835bff7d47836e88
+  servername: music.yandex.ru
+  client-fingerprint: chrome
+- name: 🇧🇾 Беларусь 3
+  type: vless
+  server: 178.172.227.124
+  port: 10443
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
+  udp: true
+  network: tcp
+- name: 🇺🇸 США 3
+  type: vless
+  server: pl1.obxodvpn.us
+  port: 443
+  uuid: 146d567c-6335-4e63-a8aa-7ec068642440
+  udp: true
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: fDrDDz_GCqhDgG8kMxWXk2vRuyfBHTTNwVa7k7nJHgw
+    short-id: 5c42ed8c
+  servername: pl1.obxodvpn.us
+  client-fingerprint: chrome
+- name: 🇭🇺 Венгрия 3
+  type: vless
+  server: 212.41.8.76
+  port: 11443
+  uuid: a628c583-24a8-4ce5-98ad-c6458abf1cc4
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: LR_FEXsJiKJUtXcmO1UR4Oi2IMmRcaS04D05oooqn28
+    short-id: 9edc24fc
+  servername: s3.storage.selcloud.ru
+  client-fingerprint: firefox
+- name: 🇩🇪 Германия 3
+  type: vless
+  server: 104.17.70.206
+  port: 8443
+  uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
+  udp: true
+  network: ws
+- name: 🇩🇪 ФРГ 3
+  type: vless
+  server: 188.225.73.41
+  port: 443
+  uuid: 4cabcd59-a405-4c00-96f5-03507e1e28fa
+  udp: true
+  network: grpc
+- name: 🇵🇱 Польша 3
+  type: vless
+  server: 132.243.212.204
+  port: 443
+  uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+- name: 🇳🇱 Нидерланды 3
+  type: vless
+  server: 171.22.183.159
+  port: 443
+  uuid: 24fb9b5b-43b7-4058-a7e5-a0499ada1fda
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+- name: 🇫🇷 Франция 3
+  type: vless
+  server: 213.199.57.127
+  port: 2087
+  uuid: 0f82d566-1273-43c5-a73c-229997b3b4b0
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Y8U3PhV0K8jT4PBHq-rhCA4eUtOXa1CNB9waCvZbZSc
+    short-id: '42'
+  servername: blog.api.www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇨🇭 Швейцария 3
+  type: vless
+  server: 193.233.219.98
+  port: 443
+  uuid: 265ecca2-4733-49de-b2c9-ed7f0e999655
+  udp: true
+  network: ws
+- name: 🇳🇴 Норвегия 3
+  type: vless
+  server: 193.243.189.64
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 631qtx5_iiR8HBYdp3duf2SMqdN0URE1AWVb85I_FFg
+    short-id: b12c3119d219dc
+  servername: no1.gofizz.in
+  client-fingerprint: chrome
+- name: 🇫🇮 Финляндия 4
+  type: vless
+  server: 109.71.245.99
+  port: 8443
+  uuid: f09ca6e3-c547-4f91-95f5-77f34c4282ac
+  udp: true
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: oeaOjlr45iDKroH7RIhUq-epbwnRAmG7jeXZHlbSzj4
+    short-id: 835bff7d47836e88
+  servername: music.yandex.ru
+  client-fingerprint: chrome
+- name: 🇧🇾 Беларусь 4
+  type: vless
+  server: 185.66.68.201
+  port: 8080
+  uuid: 669b15b9-a618-47a6-ab0b-6210767ba6fd
+  udp: true
+  network: xhttp
+- name: 🇺🇸 США 4
+  type: vless
+  server: 193.233.90.115
+  port: 8443
+  uuid: ab53f3b6-7962-4bc1-90f6-8420767b22a8
+  udp: true
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: KZejN2d1cwCrITHNxFYQVZ4rpMTZzHgJd9p30MZm_3k
+    short-id: 6bd33a75ebc0f26e
+  servername: cdn-us.cahmes.space
+  client-fingerprint: firefox
+- name: 🇭🇺 Венгрия 4
+  type: vless
+  server: 212.41.8.76
+  port: 11443
+  uuid: a628c583-24a8-4ce5-98ad-c6458abf1cc4
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: LR_FEXsJiKJUtXcmO1UR4Oi2IMmRcaS04D05oooqn28
+    short-id: 9edc24fc
+  servername: s3.storage.selcloud.ru
+  client-fingerprint: safari
+- name: 🇩🇪 Германия 4
+  type: vless
+  server: 104.17.70.206
+  port: 8443
+  uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
+  udp: true
+  network: ws
+- name: 🇩🇪 ФРГ 4
+  type: ss
+  server: 47.245.173.25
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: 🇵🇱 Польша 4
+  type: vless
+  server: 132.243.212.204
+  port: 443
+  uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+- name: 🇸🇪 Швеция 4
+  type: vless
+  server: 193.163.203.170
+  port: 443
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  servername: yandex.ru
+  client-fingerprint: chrome
+- name: 🇳🇱 Нидерланды 4
+  type: vless
+  server: 138.16.249.177
+  port: 443
+  uuid: 80a06811-f74b-4b82-ac99-7e66c2a98e1c
+  udp: true
+  network: xhttp
+- name: 🇫🇷 Франция 4
+  type: vless
+  server: 46.224.158.20
+  port: 8443
+  uuid: 88d18cf3-ac0e-46ef-b073-47bd07145983
+  udp: true
+  network: ws
+- name: 🇨🇭 Швейцария 4
+  type: vless
+  server: 193.233.219.98
+  port: 443
+  uuid: 265ecca2-4733-49de-b2c9-ed7f0e999655
+  udp: true
+  network: ws
+- name: 🇳🇴 Норвегия 4
+  type: vless
+  server: 193.243.189.64
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 631qtx5_iiR8HBYdp3duf2SMqdN0URE1AWVb85I_FFg
+    short-id: b12c3119d219dc
+  servername: no1.gofizz.in
+  client-fingerprint: chrome
+- name: 🇫🇮 Финляндия 5
+  type: vless
+  server: 109.71.245.99
+  port: 8443
+  uuid: f09ca6e3-c547-4f91-95f5-77f34c4282ac
+  udp: true
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: oeaOjlr45iDKroH7RIhUq-epbwnRAmG7jeXZHlbSzj4
+    short-id: 835bff7d47836e88
+  servername: music.yandex.ru
+  client-fingerprint: chrome
+- name: 🇧🇾 Беларусь 5
+  type: vless
+  server: 178.172.227.124
+  port: 14430
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
+  udp: true
+  network: ws
+- name: 🇺🇸 США 5
+  type: vless
+  server: 212.41.8.76
+  port: 14443
+  uuid: a628c583-24a8-4ce5-98ad-c6458abf1cc4
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: rVt9_jYmjD8R-DjRQrX7uRPJ2803fRXf9quNOqfxJQM
+    short-id: 55a57f74
+  servername: s3.storage.selcloud.ru
+  client-fingerprint: safari
+- name: 🇭🇺 Венгрия 5
+  type: vless
+  server: 212.41.8.76
+  port: 11443
+  uuid: a628c583-24a8-4ce5-98ad-c6458abf1cc4
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: LR_FEXsJiKJUtXcmO1UR4Oi2IMmRcaS04D05oooqn28
+    short-id: 9edc24fc
+  servername: s3.storage.selcloud.ru
+  client-fingerprint: firefox
+- name: 🇩🇪 Германия 5
+  type: vless
+  server: 104.17.70.206
+  port: 8443
+  uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
+  udp: true
+  network: ws
+- name: 🇩🇪 ФРГ 5
+  type: vless
+  server: 188.225.73.41
+  port: 443
+  uuid: 4cabcd59-a405-4c00-96f5-03507e1e28fa
+  udp: true
+  network: grpc
+- name: 🇵🇱 Польша 5
+  type: vless
+  server: 188.225.25.35
+  port: 8443
+  uuid: 591db2c1-12a7-4aa8-93af-106bd3e3ae3a
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: rJ-fFNYXh7WW9LuYe1N71fh7nAEe5i09Pi5ZDSDlH1s
+    short-id: 4951a2313524dd8f
+  servername: ru.starkclaude.top
+  client-fingerprint: firefox
+- name: 🇸🇪 Швеция 5
+  type: vless
+  server: 193.163.203.170
+  port: 443
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  servername: yandex.ru
+  client-fingerprint: firefox
+- name: 🇳🇱 Нидерланды 5
+  type: vless
+  server: 201.51.11.65
+  port: 443
+  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GiDgVRVYrTkv1mZJeFVWkr736Iey2kqLM6L0eUbffV8
+    short-id: ''
+  servername: absolute-disaster.org
+  client-fingerprint: safari
+- name: 🇨🇭 Швейцария 5
+  type: vless
+  server: 193.233.89.130
+  port: 8443
+  uuid: 7bd7c4aa-52c4-482c-bdcc-e7380fa6b5fe
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: xx8KWdR4HbVmvqPb0wRPAstBHGN2Uk99m7AF794_E3c
+    short-id: ''
+  servername: g.play2go.gay
+  client-fingerprint: safari
+- name: 🇫🇮 Финляндия 6
+  type: vless
+  server: 45.144.234.157
+  port: 14430
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  udp: true
+  network: ws
+- name: 🇧🇾 Беларусь 6
+  type: vless
+  server: 178.172.227.124
+  port: 14430
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
+  udp: true
+  network: ws
+- name: 🇺🇸 США 6
+  type: vless
+  server: 200.102.179.69
+  port: 443
+  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
+  udp: true
+  network: xhttp
+- name: 🇭🇺 Венгрия 6
+  type: vless
+  server: 212.41.8.76
+  port: 11443
+  uuid: a628c583-24a8-4ce5-98ad-c6458abf1cc4
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: LR_FEXsJiKJUtXcmO1UR4Oi2IMmRcaS04D05oooqn28
+    short-id: 9edc24fc
+  servername: s3.storage.selcloud.ru
+  client-fingerprint: safari
+- name: 🇩🇪 Германия 6
+  type: vless
+  server: b1eb8et.de14.h1clayd.click
+  port: 443
+  uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
+  udp: true
+  network: tcp
+  tls: true
+  reality-opts:
+    public-key: l3fn2CzC6-oVy6Mf5jafL-kVs8aX_jUfMUjhupBkPz0
+    short-id: 1a5d9b3be394fdc7
+  servername: b1eb8et.de14.h1clayd.click
+  client-fingerprint: chrome
+- name: 🇩🇪 ФРГ 6
+  type: vless
+  server: 188.225.73.41
+  port: 443
+  uuid: 4cabcd59-a405-4c00-96f5-03507e1e28fa
+  udp: true
+  network: grpc
+- name: 🇸🇪 Швеция 6
+  type: vless
+  server: 193.163.203.170
+  port: 443
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  servername: yandex.ru
+  client-fingerprint: safari
+- name: 🇳🇱 Нидерланды 6
+  type: vless
+  server: 201.51.11.65
+  port: 443
+  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GiDgVRVYrTkv1mZJeFVWkr736Iey2kqLM6L0eUbffV8
+    short-id: ''
+  servername: absolute-disaster.org
+  client-fingerprint: chrome
+- name: 🇨🇭 Швейцария 6
+  type: vless
+  server: 193.233.89.130
+  port: 8443
+  uuid: 7bd7c4aa-52c4-482c-bdcc-e7380fa6b5fe
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: xx8KWdR4HbVmvqPb0wRPAstBHGN2Uk99m7AF794_E3c
+    short-id: ''
+  servername: g.play2go.gay
+  client-fingerprint: firefox
+- name: 🇫🇮 Финляндия 7
+  type: vless
+  server: 217.163.76.118
+  port: 2086
+  uuid: b7977b65-cfd8-4db9-a029-6ef014a4ae4a
+  udp: true
+  network: xhttp
+- name: 🇧🇾 Беларусь 7
+  type: vless
+  server: 178.172.227.124
+  port: 10443
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
+  udp: true
+  network: tcp
+- name: 🇺🇸 США 7
+  type: vless
+  server: 200.102.179.69
+  port: 443
+  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
+  udp: true
+  network: xhttp
+- name: 🇩🇪 Германия 7
+  type: vless
+  server: 195.110.15.19
+  port: 43000
+  uuid: a75b8ca1-3bbe-43fc-87f6-e153bf192f83
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: KeFxVlEEuDN8alZBsrXiX9yrcY2-H7lcdzXWjtrIWy0
+    short-id: a9c3bda4
+  servername: 195.110.15.19
+  client-fingerprint: chrome
+- name: 🇩🇪 ФРГ 7
+  type: vless
+  server: 193.160.208.240
+  port: 443
+  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+  udp: true
+  network: xhttp
+- name: 🇸🇪 Швеция 7
+  type: vless
+  server: 193.163.203.170
+  port: 443
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  servername: yandex.ru
+  client-fingerprint: ios
+- name: 🇳🇱 Нидерланды 7
+  type: vless
+  server: 201.51.11.65
+  port: 443
+  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GiDgVRVYrTkv1mZJeFVWkr736Iey2kqLM6L0eUbffV8
+    short-id: ''
+  servername: absolute-disaster.org
+  client-fingerprint: firefox
+- name: 🇫🇮 Финляндия 8
+  type: vless
+  server: 45.144.234.157
+  port: 14430
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  udp: true
+  network: ws
+- name: 🇧🇾 Беларусь 8
+  type: vless
+  server: 178.172.227.124
+  port: 10443
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
+  udp: true
+  network: tcp
+- name: 🇺🇸 США 8
+  type: vless
+  server: 212.41.8.76
+  port: 14443
+  uuid: a628c583-24a8-4ce5-98ad-c6458abf1cc4
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: rVt9_jYmjD8R-DjRQrX7uRPJ2803fRXf9quNOqfxJQM
+    short-id: 55a57f74
+  servername: s3.storage.selcloud.ru
+  client-fingerprint: firefox
+- name: 🇩🇪 ФРГ 8
+  type: vless
+  server: o685y.save-node.com
+  port: 443
+  uuid: 88e79aa6-f431-4453-8dcc-652a0c747198
+  udp: true
+  network: ws
+- name: 🇸🇪 Швеция 8
+  type: vless
+  server: 193.163.203.170
+  port: 443
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  servername: yandex.ru
+  client-fingerprint: chrome
+- name: 🇳🇱 Нидерланды 8
+  type: vless
+  server: 177.177.215.45
+  port: 444
+  uuid: 254f28cb-d0c1-41e9-a06b-f2155213ff04
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+- name: 🇫🇮 Финляндия 9
+  type: vless
+  server: 217.163.76.118
+  port: 2086
+  uuid: b7977b65-cfd8-4db9-a029-6ef014a4ae4a
+  udp: true
+  network: xhttp
+- name: 🇧🇾 Беларусь 9
+  type: vless
+  server: 178.172.227.124
+  port: 10443
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
+  udp: true
+  network: tcp
+- name: 🇺🇸 США 9
+  type: vless
+  server: 212.41.8.76
+  port: 14443
+  uuid: a628c583-24a8-4ce5-98ad-c6458abf1cc4
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: rVt9_jYmjD8R-DjRQrX7uRPJ2803fRXf9quNOqfxJQM
+    short-id: 55a57f74
+  servername: s3.storage.selcloud.ru
+  client-fingerprint: random
+- name: 🇩🇪 ФРГ 9
+  type: vless
+  server: o685y.save-node.com
+  port: 443
+  uuid: 88e79aa6-f431-4453-8dcc-652a0c747198
+  udp: true
+  network: ws
+- name: 🇸🇪 Швеция 9
+  type: vless
+  server: 193.163.203.170
+  port: 443
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  servername: yandex.ru
+  client-fingerprint: random
+- name: 🇳🇱 Нидерланды 9
+  type: vless
+  server: 171.22.133.5
+  port: 6443
+  uuid: 0b22812b-4a79-42b1-93ec-5b157b0f2f7f
+  udp: true
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: RBQhVV7u-QBkQL79vHRE2tQEeR1SA8CJ9zI9i99XA24
+    short-id: 3bcbfe3856680516
+  servername: nl.krabvpn.pro
+  client-fingerprint: firefox
+- name: 🇫🇮 Финляндия 10
+  type: vless
+  server: 45.144.234.157
+  port: 14430
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  udp: true
+  network: ws
+- name: 🇧🇾 Беларусь 10
+  type: vless
+  server: 178.172.227.124
+  port: 10444
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  servername: ads.x5.ru
+  client-fingerprint: edge
+- name: 🇺🇸 США 10
+  type: vless
+  server: 212.41.8.76
+  port: 14443
+  uuid: a628c583-24a8-4ce5-98ad-c6458abf1cc4
+  udp: true
+  network: grpc
+  tls: true
+  reality-opts:
+    public-key: rVt9_jYmjD8R-DjRQrX7uRPJ2803fRXf9quNOqfxJQM
+    short-id: 55a57f74
+  servername: s3.storage.selcloud.ru
+  client-fingerprint: ios
+- name: 🇩🇪 ФРГ 10
+  type: vless
+  server: 188.225.73.41
+  port: 443
+  uuid: 4cabcd59-a405-4c00-96f5-03507e1e28fa
+  udp: true
+  network: grpc
+- name: 🇸🇪 Швеция 10
+  type: vless
+  server: 193.163.203.170
+  port: 443
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  servername: yandex.ru
+  client-fingerprint: chrome
+- name: 🇳🇱 Нидерланды 10
+  type: vless
+  server: 84.32.96.120
+  port: 443
+  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+- name: 🇫🇮 Финляндия 11
+  type: vless
+  server: 45.144.234.157
+  port: 14430
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  udp: true
+  network: ws
+- name: 🇧🇾 Беларусь 11
+  type: vless
+  server: 95.128.71.79
+  port: 14430
+  uuid: 8cef7621-c6f0-486e-b51d-59c30c5b0b25
+  udp: true
+  network: ws
+- name: 🇺🇸 США 11
+  type: vless
+  server: 193.233.90.115
+  port: 8443
+  uuid: ab53f3b6-7962-4bc1-90f6-8420767b22a8
+  udp: true
+  network: xhttp
+  tls: true
+  reality-opts:
+    public-key: KZejN2d1cwCrITHNxFYQVZ4rpMTZzHgJd9p30MZm_3k
+    short-id: 6bd33a75ebc0f26e
+  servername: cdn-us.cahmes.space
+  client-fingerprint: ios
+- name: 🇩🇪 ФРГ 11
+  type: vless
+  server: 167.233.107.96
+  port: 41590
+  uuid: 935291c3-4317-4b2f-94aa-00468499735c
+  udp: true
+  network: ws
+- name: 🇸🇪 Швеция 11
+  type: vless
+  server: 193.163.203.170
+  port: 443
+  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+    short-id: b28db60d77c50b4f
+  servername: yandex.ru
+  client-fingerprint: chrome
+- name: 🇳🇱 Нидерланды 11
+  type: vless
+  server: 31.77.28.173
+  port: 443
+  uuid: 372931d3-91c5-4564-b79c-041302de9a17
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
+    short-id: e06e30590f288e0f
+  servername: nl4.soshelper.space
+  client-fingerprint: chrome
+- name: 🇫🇮 Финляндия 12
+  type: vless
+  server: ip3.ipspanel.ir
+  port: 8443
+  uuid: 03cc39b9-0b75-4297-b284-8158cfbb959a
+  udp: true
+  network: ws
+- name: 🇧🇾 Беларусь 12
+  type: vless
+  server: 178.172.227.228
+  port: 10444
+  uuid: b6e5dc56-836f-48c1-9163-b0b0b43b647d
+  udp: true
+  network: tcp
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  servername: ads.x5.ru
+  client-fingerprint: edge
+- name: 🇹🇷 Турция 1
+  type: hysteria2
+  server: 153.56.210.134
+  port: 34121
+  password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
+  sni: www.bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇫🇷 Франция 1
+  type: hysteria2
+  server: 62.210.7.139
+  port: 60111
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: css.rbxcdn.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇰🇷 Южная Корея 1
+  type: hysteria2
+  server: 152.70.237.123
+  port: 2053
+  password: maintell
+  sni: 152.70.237.123
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇸🇬 Сингапур 1
+  type: hysteria2
+  server: 138.2.89.249
+  port: 443
+  password: d042d150716709bb778cc73889cddb02
+  sni: www.bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇺🇸 США 2
+  type: hysteria2
+  server: 177.202.75.56
+  port: 443
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
+  sni: fi1.obxodvpn.us
+  skip-cert-verify: false
+  alpn:
+  - h3
+- name: 🇳🇱 Нидерланды 2
+  type: hysteria2
+  server: 9.247.54.188
+  port: 443
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
+  sni: nl1.obxodvpn.us
+  skip-cert-verify: false
+  alpn:
+  - h3
+- name: 🇭🇰 Гонконг, Особый Административный Район Китая 2
+  type: hysteria2
+  server: 24.233.8.109
+  port: 443
+  password: 8294f130408299df8cab08c80bf6f819
+  sni: www.bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇰🇷 Южная Корея 2
+  type: hysteria2
+  server: 132.226.226.189
+  port: 50160
+  password: 1671a252e2a97dc2bda4e515475931da
+  sni: www.bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇭🇰 Гонконг, Особый Административный Район Китая 3
+  type: hysteria2
+  server: 152.32.254.68
+  port: 5010
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: nas.aizhzo.com
+  skip-cert-verify: false
+  alpn:
+  - h3
+- name: 🇰🇷 Южная Корея 3
+  type: hysteria2
+  server: 152.70.237.123
+  port: 2053
+  password: maintell
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇭🇰 Гонконг, Особый Административный Район Китая 4
+  type: hysteria2
+  server: 152.32.254.68
+  port: 5010
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: nas.aizhzo.com
+  skip-cert-verify: false
+  alpn:
+  - h3
+- name: 🇰🇷 Южная Корея 4
+  type: hysteria2
+  server: 132.226.226.189
+  port: 50160
+  password: 1671a252e2a97dc2bda4e515475931da
+  sni: 'off'
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇭🇰 Гонконг, Особый Административный Район Китая 5
+  type: hysteria2
+  server: 152.32.254.68
+  port: 5010
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: 127.0.0.1
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇰🇷 Южная Корея 5
+  type: hysteria2
+  server: 152.70.237.123
+  port: 2053
+  password: maintell
+  sni: 152.70.237.123
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇰🇷 Южная Корея 6
+  type: hysteria2
+  server: 152.69.231.175
+  port: 50160
+  password: 1beb216e3f60aea9555dae60d219a5ca
+  sni: 127.0.0.1
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇰🇷 Южная Корея 7
+  type: hysteria2
+  server: 152.69.231.175
+  port: 50160
+  password: 1beb216e3f60aea9555dae60d219a5ca
+  sni: 152-69-231-175.liao.kdns.fr
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇩🇪 Германия 8
+  type: hysteria2
+  server: 18.194.242.173
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 18.194.242.173
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇰🇷 Южная Корея 8
+  type: hysteria2
+  server: 132.226.226.189
+  port: 50160
+  password: 1671a252e2a97dc2bda4e515475931da
+  sni: 132.226.226.189
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇩🇪 Германия 9
+  type: hysteria2
+  server: 18.194.242.173
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇰🇷 Южная Корея 9
+  type: hysteria2
+  server: 152.69.231.175
+  port: 50160
+  password: 1beb216e3f60aea9555dae60d219a5ca
+  sni: 152.69.231.175
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇰🇷 Южная Корея 10
+  type: hysteria2
+  server: 132.226.226.189
+  port: 50160
+  password: 1671a252e2a97dc2bda4e515475931da
+  sni: 'off'
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: 🇰🇷 Южная Корея 11
+  type: hysteria2
+  server: 152.67.200.82
+  port: 50160
+  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+  sni: 152-67-200-82.liao.kdns.fr
+  skip-cert-verify: true
+  alpn:
+  - h3
+proxy-groups:
+- name: ⚡ AUTO
+  type: url-test
+  url: https://cp.cloudflare.com/generate_204
+  interval: 300
+  proxies:
+  - 🇩🇪 LTE - Обход глушилок №14 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №12 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №13 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №18 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №28 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №17 №1 | @vpnruss1
+  - 🇮🇩 Польша №ws №1 | @vpnruss1
+  - 🇸🇮 Словения №1 | @vpnruss1
+  - 🇮🇪 Ирландия №1 | @vpnruss1
+  - 🇰🇿 Казахстан №1 | @vpnruss1
+  - 🇩🇪 Германия №1 | @vpnruss1
+  - 🇨🇦 Канада №1 | @vpnruss1
+  - 🇧🇷 Бразилия №1 | @vpnruss1
+  - 🇬🇧 Лондон №1 | @vpnruss1
+  - 🇳🇱 Голландия №1 | @vpnruss1
+  - 🇫🇮 Финляндия №1 | @vpnruss1
+  - 🇦🇹 Австрия №1 | @vpnruss1
+  - 🇪🇪 Эстония №1 | @vpnruss1
+  - 🇨🇿 Чехия №ws №1 | @vpnruss1
+  - 🇹🇷 For TM №2 №1 | @vpnruss1
+  - 🇫🇮 For TM №1 №1 | @vpnruss1
+  - 🇱🇺 For TM №10 №1 | @vpnruss1
+  - 🇧🇬 For TM №12 №1 | @vpnruss1
+  - 🇮🇩 For TM №7 №1 | @vpnruss1
+  - 🇱🇺 For TM №8 №1 | @vpnruss1
+  - 🇱🇺 For TM №11 №1 | @vpnruss1
+  - 🇦🇿 For TM №3 №1 | @vpnruss1
+  - 🇧🇻 For TM №5 №1 | @vpnruss1
+  - 🇧🇾 For TM №6 №1 | @vpnruss1
+  - 🇩🇪 For TM №9 №1 | @vpnruss1
+  - 🇩🇪 For TM №4 №1 | @vpnruss1
+  - 🇵🇹 Португалия №ws №1 | @vpnruss1
+  - 🇬🇧 Британия №ws №1 | @vpnruss1
+  - 🇧🇾 Беларусь №ws №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №7 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №24 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №26 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №20 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №22 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №23 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №19 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №21 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №4 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №2 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №3 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №6 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №5 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №8 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №9 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №1 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №39 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №11 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №33 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №32 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №31 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №35 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №36 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №30 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №34 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №27 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №41 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №29 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №40 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №16 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №10 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №37 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №25 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №38 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №15 №1 | @vpnruss1
+  - 🇫🇮 Финляндия 1
+  - 🇨🇾 Кипр 1
+  - 🇧🇾 Беларусь 1
+  - 🇺🇸 США 1
+  - 🇭🇺 Венгрия 1
+  - 🇩🇪 Германия 1
+  - 🇮🇹 Италия 1
+  - 🇩🇪 ФРГ 1
+  - 🇵🇱 Польша 1
+  - 🇸🇪 Швеция 1
+  - 🇳🇱 Нидерланды 1
+  - 🇨🇿 Чешская республика 1
+  - 🇳🇴 Норвегия 1
+  - 🇮🇱 Израиль 1
+  - 🇨🇦 Канада 1
+  - 🇫🇮 Финляндия 2
+  - 🇧🇾 Беларусь 2
+  - 🇭🇺 Венгрия 2
+  - 🇩🇪 Германия 2
+  - 🇮🇹 Италия 2
+  - 🇩🇪 ФРГ 2
+  - 🇵🇱 Польша 2
+  - 🇸🇪 Швеция 2
+  - 🇨🇿 Чешская республика 2
+  - 🇫🇷 Франция 2
+  - 🇳🇴 Норвегия 2
+  - 🇮🇱 Израиль 2
+  - 🇫🇮 Финляндия 3
+  - 🇧🇾 Беларусь 3
+  - 🇺🇸 США 3
+  - 🇭🇺 Венгрия 3
+  - 🇩🇪 Германия 3
+  - 🇩🇪 ФРГ 3
+  - 🇵🇱 Польша 3
+  - 🇳🇱 Нидерланды 3
+  - 🇫🇷 Франция 3
+  - 🇨🇭 Швейцария 3
+  - 🇳🇴 Норвегия 3
+  - 🇫🇮 Финляндия 4
+  - 🇧🇾 Беларусь 4
+  - 🇺🇸 США 4
+  - 🇭🇺 Венгрия 4
+  - 🇩🇪 Германия 4
+  - 🇩🇪 ФРГ 4
+  - 🇵🇱 Польша 4
+  - 🇸🇪 Швеция 4
+  - 🇳🇱 Нидерланды 4
+  - 🇫🇷 Франция 4
+  - 🇨🇭 Швейцария 4
+  - 🇳🇴 Норвегия 4
+  - 🇫🇮 Финляндия 5
+  - 🇧🇾 Беларусь 5
+  - 🇺🇸 США 5
+  - 🇭🇺 Венгрия 5
+  - 🇩🇪 Германия 5
+  - 🇩🇪 ФРГ 5
+  - 🇵🇱 Польша 5
+  - 🇸🇪 Швеция 5
+  - 🇳🇱 Нидерланды 5
+  - 🇨🇭 Швейцария 5
+  - 🇫🇮 Финляндия 6
+  - 🇧🇾 Беларусь 6
+  - 🇺🇸 США 6
+  - 🇭🇺 Венгрия 6
+  - 🇩🇪 Германия 6
+  - 🇩🇪 ФРГ 6
+  - 🇸🇪 Швеция 6
+  - 🇳🇱 Нидерланды 6
+  - 🇨🇭 Швейцария 6
+  - 🇫🇮 Финляндия 7
+  - 🇧🇾 Беларусь 7
+  - 🇺🇸 США 7
+  - 🇩🇪 Германия 7
+  - 🇩🇪 ФРГ 7
+  - 🇸🇪 Швеция 7
+  - 🇳🇱 Нидерланды 7
+  - 🇫🇮 Финляндия 8
+  - 🇧🇾 Беларусь 8
+  - 🇺🇸 США 8
+  - 🇩🇪 ФРГ 8
+  - 🇸🇪 Швеция 8
+  - 🇳🇱 Нидерланды 8
+  - 🇫🇮 Финляндия 9
+  - 🇧🇾 Беларусь 9
+  - 🇺🇸 США 9
+  - 🇩🇪 ФРГ 9
+  - 🇸🇪 Швеция 9
+  - 🇳🇱 Нидерланды 9
+  - 🇫🇮 Финляндия 10
+  - 🇧🇾 Беларусь 10
+  - 🇺🇸 США 10
+  - 🇩🇪 ФРГ 10
+  - 🇸🇪 Швеция 10
+  - 🇳🇱 Нидерланды 10
+  - 🇫🇮 Финляндия 11
+  - 🇧🇾 Беларусь 11
+  - 🇺🇸 США 11
+  - 🇩🇪 ФРГ 11
+  - 🇸🇪 Швеция 11
+  - 🇳🇱 Нидерланды 11
+  - 🇫🇮 Финляндия 12
+  - 🇧🇾 Беларусь 12
+  - 🇹🇷 Турция 1
+  - 🇫🇷 Франция 1
+  - 🇰🇷 Южная Корея 1
+  - 🇸🇬 Сингапур 1
+  - 🇺🇸 США 2
+  - 🇳🇱 Нидерланды 2
+  - 🇭🇰 Гонконг, Особый Административный Район Китая 2
+  - 🇰🇷 Южная Корея 2
+  - 🇭🇰 Гонконг, Особый Административный Район Китая 3
+  - 🇰🇷 Южная Корея 3
+  - 🇭🇰 Гонконг, Особый Административный Район Китая 4
+  - 🇰🇷 Южная Корея 4
+  - 🇭🇰 Гонконг, Особый Административный Район Китая 5
+  - 🇰🇷 Южная Корея 5
+  - 🇰🇷 Южная Корея 6
+  - 🇰🇷 Южная Корея 7
+  - 🇩🇪 Германия 8
+  - 🇰🇷 Южная Корея 8
+  - 🇩🇪 Германия 9
+  - 🇰🇷 Южная Корея 9
+  - 🇰🇷 Южная Корея 10
+  - 🇰🇷 Южная Корея 11
+- name: SELECT
+  type: select
+  proxies:
+  - ⚡ AUTO
+  - 🇩🇪 LTE - Обход глушилок №14 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №12 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №13 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №18 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №28 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №17 №1 | @vpnruss1
+  - 🇮🇩 Польша №ws №1 | @vpnruss1
+  - 🇸🇮 Словения №1 | @vpnruss1
+  - 🇮🇪 Ирландия №1 | @vpnruss1
+  - 🇰🇿 Казахстан №1 | @vpnruss1
+  - 🇩🇪 Германия №1 | @vpnruss1
+  - 🇨🇦 Канада №1 | @vpnruss1
+  - 🇧🇷 Бразилия №1 | @vpnruss1
+  - 🇬🇧 Лондон №1 | @vpnruss1
+  - 🇳🇱 Голландия №1 | @vpnruss1
+  - 🇫🇮 Финляндия №1 | @vpnruss1
+  - 🇦🇹 Австрия №1 | @vpnruss1
+  - 🇪🇪 Эстония №1 | @vpnruss1
+  - 🇨🇿 Чехия №ws №1 | @vpnruss1
+  - 🇹🇷 For TM №2 №1 | @vpnruss1
+  - 🇫🇮 For TM №1 №1 | @vpnruss1
+  - 🇱🇺 For TM №10 №1 | @vpnruss1
+  - 🇧🇬 For TM №12 №1 | @vpnruss1
+  - 🇮🇩 For TM №7 №1 | @vpnruss1
+  - 🇱🇺 For TM №8 №1 | @vpnruss1
+  - 🇱🇺 For TM №11 №1 | @vpnruss1
+  - 🇦🇿 For TM №3 №1 | @vpnruss1
+  - 🇧🇻 For TM №5 №1 | @vpnruss1
+  - 🇧🇾 For TM №6 №1 | @vpnruss1
+  - 🇩🇪 For TM №9 №1 | @vpnruss1
+  - 🇩🇪 For TM №4 №1 | @vpnruss1
+  - 🇵🇹 Португалия №ws №1 | @vpnruss1
+  - 🇬🇧 Британия №ws №1 | @vpnruss1
+  - 🇧🇾 Беларусь №ws №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №7 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №24 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №26 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №20 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №22 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №23 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №19 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №21 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №4 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №2 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №3 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №6 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №5 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №8 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №9 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №1 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №39 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №11 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №33 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №32 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №31 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №35 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №36 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №30 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №34 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №27 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №41 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №29 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №40 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №16 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №10 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №37 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №25 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №38 №1 | @vpnruss1
+  - 🇩🇪 LTE - Обход глушилок №15 №1 | @vpnruss1
+  - 🇫🇮 Финляндия 1
+  - 🇨🇾 Кипр 1
+  - 🇧🇾 Беларусь 1
+  - 🇺🇸 США 1
+  - 🇭🇺 Венгрия 1
+  - 🇩🇪 Германия 1
+  - 🇮🇹 Италия 1
+  - 🇩🇪 ФРГ 1
+  - 🇵🇱 Польша 1
+  - 🇸🇪 Швеция 1
+  - 🇳🇱 Нидерланды 1
+  - 🇨🇿 Чешская республика 1
+  - 🇳🇴 Норвегия 1
+  - 🇮🇱 Израиль 1
+  - 🇨🇦 Канада 1
+  - 🇫🇮 Финляндия 2
+  - 🇧🇾 Беларусь 2
+  - 🇭🇺 Венгрия 2
+  - 🇩🇪 Германия 2
+  - 🇮🇹 Италия 2
+  - 🇩🇪 ФРГ 2
+  - 🇵🇱 Польша 2
+  - 🇸🇪 Швеция 2
+  - 🇨🇿 Чешская республика 2
+  - 🇫🇷 Франция 2
+  - 🇳🇴 Норвегия 2
+  - 🇮🇱 Израиль 2
+  - 🇫🇮 Финляндия 3
+  - 🇧🇾 Беларусь 3
+  - 🇺🇸 США 3
+  - 🇭🇺 Венгрия 3
+  - 🇩🇪 Германия 3
+  - 🇩🇪 ФРГ 3
+  - 🇵🇱 Польша 3
+  - 🇳🇱 Нидерланды 3
+  - 🇫🇷 Франция 3
+  - 🇨🇭 Швейцария 3
+  - 🇳🇴 Норвегия 3
+  - 🇫🇮 Финляндия 4
+  - 🇧🇾 Беларусь 4
+  - 🇺🇸 США 4
+  - 🇭🇺 Венгрия 4
+  - 🇩🇪 Германия 4
+  - 🇩🇪 ФРГ 4
+  - 🇵🇱 Польша 4
+  - 🇸🇪 Швеция 4
+  - 🇳🇱 Нидерланды 4
+  - 🇫🇷 Франция 4
+  - 🇨🇭 Швейцария 4
+  - 🇳🇴 Норвегия 4
+  - 🇫🇮 Финляндия 5
+  - 🇧🇾 Беларусь 5
+  - 🇺🇸 США 5
+  - 🇭🇺 Венгрия 5
+  - 🇩🇪 Германия 5
+  - 🇩🇪 ФРГ 5
+  - 🇵🇱 Польша 5
+  - 🇸🇪 Швеция 5
+  - 🇳🇱 Нидерланды 5
+  - 🇨🇭 Швейцария 5
+  - 🇫🇮 Финляндия 6
+  - 🇧🇾 Беларусь 6
+  - 🇺🇸 США 6
+  - 🇭🇺 Венгрия 6
+  - 🇩🇪 Германия 6
+  - 🇩🇪 ФРГ 6
+  - 🇸🇪 Швеция 6
+  - 🇳🇱 Нидерланды 6
+  - 🇨🇭 Швейцария 6
+  - 🇫🇮 Финляндия 7
+  - 🇧🇾 Беларусь 7
+  - 🇺🇸 США 7
+  - 🇩🇪 Германия 7
+  - 🇩🇪 ФРГ 7
+  - 🇸🇪 Швеция 7
+  - 🇳🇱 Нидерланды 7
+  - 🇫🇮 Финляндия 8
+  - 🇧🇾 Беларусь 8
+  - 🇺🇸 США 8
+  - 🇩🇪 ФРГ 8
+  - 🇸🇪 Швеция 8
+  - 🇳🇱 Нидерланды 8
+  - 🇫🇮 Финляндия 9
+  - 🇧🇾 Беларусь 9
+  - 🇺🇸 США 9
+  - 🇩🇪 ФРГ 9
+  - 🇸🇪 Швеция 9
+  - 🇳🇱 Нидерланды 9
+  - 🇫🇮 Финляндия 10
+  - 🇧🇾 Беларусь 10
+  - 🇺🇸 США 10
+  - 🇩🇪 ФРГ 10
+  - 🇸🇪 Швеция 10
+  - 🇳🇱 Нидерланды 10
+  - 🇫🇮 Финляндия 11
+  - 🇧🇾 Беларусь 11
+  - 🇺🇸 США 11
+  - 🇩🇪 ФРГ 11
+  - 🇸🇪 Швеция 11
+  - 🇳🇱 Нидерланды 11
+  - 🇫🇮 Финляндия 12
+  - 🇧🇾 Беларусь 12
+  - 🇹🇷 Турция 1
+  - 🇫🇷 Франция 1
+  - 🇰🇷 Южная Корея 1
+  - 🇸🇬 Сингапур 1
+  - 🇺🇸 США 2
+  - 🇳🇱 Нидерланды 2
+  - 🇭🇰 Гонконг, Особый Административный Район Китая 2
+  - 🇰🇷 Южная Корея 2
+  - 🇭🇰 Гонконг, Особый Административный Район Китая 3
+  - 🇰🇷 Южная Корея 3
+  - 🇭🇰 Гонконг, Особый Административный Район Китая 4
+  - 🇰🇷 Южная Корея 4
+  - 🇭🇰 Гонконг, Особый Административный Район Китая 5
+  - 🇰🇷 Южная Корея 5
+  - 🇰🇷 Южная Корея 6
+  - 🇰🇷 Южная Корея 7
+  - 🇩🇪 Германия 8
+  - 🇰🇷 Южная Корея 8
+  - 🇩🇪 Германия 9
+  - 🇰🇷 Южная Корея 9
+  - 🇰🇷 Южная Корея 10
+  - 🇰🇷 Южная Корея 11
+rules:
+- MATCH,SELECT
